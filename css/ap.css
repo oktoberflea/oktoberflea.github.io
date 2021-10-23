@@ -1,0 +1,52 @@
+/*
+font-family: 'Swanky and Moo Moo', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/*
+#orange {: #e63c2f;}
+#brun {: #8a2529;}
+#mauve {: #681f79;}
+#vert  {: #8bb31d;}
+*/
+
+body {
+	background-color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	}
+
+a, a:hover, a:visited, a:link, a:active{
+	text-decoration: none;
+	color: #8a2529;
+	}
+a:hover {color:chocolate;}
+/* a:visited {color:dimgray;} */
+
+#container {
+	height: auto;
+	padding-top: 50px;
+	}
+
+#container section svg {
+    padding-top: 40px; 
+    padding-left:25px; padding-right:25px; 
+    padding-bottom:20px;
+    }
+ 
+ span#vert  {color: #8bb31d;}
+ span#mauve {color: #681f79;}
+ span#orange {color: #e63c2f;}
+header {
+	height: auto;
+	padding-top:30px;
+	padding-bottom:30px;
+	}
+footer  {
+	height: auto;
+	clear: both;
+	}
+header.container-fluid p, footer.container-fluid p {text-align: center;}
+header.container-fluid h1, header.container-fluid h3 {font-family: 'Swanky and Moo Moo', cursive;}
+header.container-fluid h1 {font-size: 5.01em;}
+header.container-fluid h3 {font-size: 3.01em;}
+footer.container-fluid p {font-size: 1.1em;}
