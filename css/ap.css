@@ -28,10 +28,28 @@ a:hover {color:chocolate;}
 	}
 	
 #container section p {
-    padding: 3px;
-    text-align: center;
     font-family: 'Swanky and Moo Moo', cursive;
     font-size: 2.54em;
+    }
+
+#container section p img {
+    width:100%;
+    height:100%;
+    }
+
+#container section p, #container section #asset p, #container section #assetdesc p {
+    padding: 3px;
+    text-align: center;
+    }
+
+#container section #asset p, #container section #assetdesc p {
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+#container section #asset p {font-size: 1.5em;}   
+#container section #assetdesc p {
+    font-size: 1em;
+    text-align: left;
     }
 
 #container section svg {
